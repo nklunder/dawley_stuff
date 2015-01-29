@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Demystifying Email Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!--   <style>
+<!-- <style>
   * {
     border-collapse: collapse;
     border: 1px dashed rgba(255,0,0,.5);
@@ -31,12 +31,12 @@
           <tr>
             <td bgcolor="#7c2d23">
               <table cellpadding="0" cellspacing="0">
-                <tr style="padding: 0; color: white;">
-                  <td width="420" valign="top">
-                    Title
+                <tr style="color: #e9e1e0;">
+                  <td width="420" valign="top" style="font-size: 18px; padding: 8px 0 6px 8px">
+                    <i>Fast Facts</i>
                   </td>
-                  <td width="230" align="right" valign="top">
-                    Date
+                  <td width="230" align="right" valign="top" style="font-size: 18px; padding: 8px 8px 6px 0">
+                    January 29, 2015
                   </td>
                 </tr>
               </table>
@@ -46,15 +46,61 @@
           <tr>
             <td style="padding: 0">
               <table cellpadding="0" cellspacing="0">
-                <tr><td style="font-size: 0; line-height: 0" height="6">&nbsp;</td></tr> <!-- horizontal spacer cell -->
+                <tr><td style="font-size: 0; line-height: 0" height="5">&nbsp;</td></tr>
                 <tr>
                   <!-- MAIN CONTENT -->
-                  <td width="432" valign="top">
-                    <table>
+                  <td width="434" valign="top">
+                    <table cellpadding="0" cellspacing="0">
+
+                      <!-- Start Main Content
+                           ==================
+                           To create a new section, copy from the opening <tr> to the closing </tr> and
+                           paste directly under the closing </tr>.
+
+                           To create a new paragraph, copy from the opening <p> to the closing </p> and
+                           paste directly under the closing </p>. Optional subheading can be added by
+                           including <b>[HEADING SUBTITLE]</b><br> around the title.
+                      -->
+
+                      <tr>
+                        <td bgcolor="#005b99" width="434" style="padding: 3px 0 3px 8px">
+                          <span style="font-size: 24px; font-family: arial, sans-serif; color: #ffffff;">
+                            Main Content Headline
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0 0 20px 0">
+                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a. Proin non lectus elementum justo molestie pretium at at ligula.
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td bgcolor="#005b99" width="434" style="padding: 3px 0 3px 8px">
+                          <span style="font-size: 24px; font-family: arial, sans-serif; color: #ffffff;">
+                            Main Content Headline
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0 0 20px 0">
+                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a.
+                          </p>
+                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                            <b>Main Content Subheading</b><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a. Proin non lectus elementum justo molestie pretium at at ligula.
+                          </p>
+                        </td>
+                      </tr>
+
+                      <!-- End Main Content -->
+
 
                     </table>
                   </td>
-                  <td style="font-size: 0; line-height: 0;" width="18">&nbsp;</td> <!-- vertical spacer cell -->
+                  <td style="font-size: 0; line-height: 0;" width="16">&nbsp;</td>
                   <!-- SIDEBAR -->
                   <td width="200" valign="top">
                     <table cellpadding="0" cellspacing="0">
@@ -63,41 +109,43 @@
                           <img src="img/kvb_spotlight.jpg" alt="KVB Spotlight" width="144" height="80" style="display: block;">
                         </td>
                       </tr>
+                      <tr><td style="font-size: 0; line-height: 0" height="16">&nbsp;</td></tr>
                       <tr>
-                      <tr><td style="font-size: 0; line-height: 0" height="16">&nbsp;</td></tr> <!-- horizontal spacer cell -->
+
                       <!-- Start Sidebar Content
                            =====================
-                            To create a new section with headline, copy from the opening <td> to the closing </td> and
+                            To create a new section, copy from the opening <td> to the closing </td> and
                             paste directly under the closing </td>.
 
-                            To create a new subheading section inside of the main section, copy from the opening <b>
+                            To create a new sub-section inside of the parent section, copy from the opening <b>
                             to the closing </p> and pate directly under the closing </p>.
                       -->
 
                         <td>
-                          <b style="font-size: 20px; font-family: arial, sans-serif; color: #5f4230;">
+                          <!-- Section 1 -->
+                          <b style="font-size: 18px; font-family: arial, sans-serif; color: #5f4230;">
                             Sidebar Headline
                           </b>
-                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                          <p style="font-size: 12px; font-family: arial, sans-serif; color: #000000;">
                             <b>Sidebar SubHead</b>
                             <br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a. Proin non lectus elementum justo molestie pretium at at ligula.
                           </p>
-                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                          <p style="font-size: 12px; font-family: arial, sans-serif; color: #000000;">
                             <b>Sidebar SubHead</b>
                             <br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a.
                           </p>
-
-                          <b style="font-size: 20px; font-family: arial, sans-serif; color: #5f4230;">
+                          <!-- Section 2 -->
+                          <b style="font-size: 18px; font-family: arial, sans-serif; color: #5f4230;">
                             Sidebar Headline
                           </b>
-                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                          <p style="font-size: 12px; font-family: arial, sans-serif; color: #000000;">
                             <b>Sidebar SubHead</b>
                             <br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a. Proin non lectus elementum justo molestie pretium at at ligula.
                           </p>
-                          <p style="font-size: 14px; font-family: arial, sans-serif; color: #000000;">
+                          <p style="font-size: 12px; font-family: arial, sans-serif; color: #000000;">
                             <b>Sidebar SubHead</b>
                             <br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec tempor libero, sit amet blandit est. Nunc finibus purus ante, vel pulvinar elit viverra a.
@@ -105,6 +153,8 @@
                         </td>
 
                       <!-- End Sidebar Content -->
+
+
                       </tr>
                     </table>
                   </td>
